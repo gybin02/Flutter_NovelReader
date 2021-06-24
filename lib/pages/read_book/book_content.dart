@@ -10,7 +10,6 @@ import 'package:flutter_reader/tools/colors.dart';
 import 'package:flutter_reader/tools/size.dart';
 import 'package:flutter_reader/widget/Bubbles.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:html/parser.dart';
 import 'package:overlay_support/overlay_support.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
