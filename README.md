@@ -25,23 +25,23 @@ The project uses Google's mobile framework Flutter🤔, language support - Dart,
 ## Interface Display
 The theme color of the whole software is warm red color, you can feel the overall style of the software UI part in multiple main interfaces😄.
 <p align="center">
-<img src=/blob/master/showImage/1.png>
+<img src=/showImage/1.png>
 </p>
 Software features include sign-in, purchase, redemption, screening, search, various book operations, and some corporate business functions.
 <p align="center">
-<img src=/blob/master/showImage/3.png>
+<img src=/showImage/3.png>
 </p>
 The user's various consumption records will be displayed and fed back in detail within the software. It is worth mentioning that the user center also adds user feedback to facilitate feedback on software usage.
 <p align="center">
-<img src=/blob/master/showImage/5.png>
+<img src=/showImage/5.png>
 </p>
 And, in order to ensure the user experience, the font size customization and the dark mode adaptation are made in the reading interface🙏.
 <p align="center">
-<img src=/blob/master/showImage/2.png>
+<img src=/showImage/2.png>
 </p>
 In the bookshelf page, you can freely read and collect books from the bookshelf, and you can find your reading footprint and continue reading last time.
 <p align="center">
-<img src=/blob/master/showImage/4.png>
+<img src=/showImage/4.png>
 </p>
 
 ## Getting Started🏃
