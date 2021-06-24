@@ -9,12 +9,12 @@ import 'package:provider/provider.dart';
 void main() {
   final hasLogin = GlobalModel();
 
-  runApp(
-    Provider<bool>.value(
-    child: ChangeNotifierProvider.value(value: hasLogin,
-    child: MyApp(),),
-    )
-  );
+  runApp(Provider<bool>.value(
+    child: ChangeNotifierProvider.value(
+      value: hasLogin,
+      child: MyApp(),
+    ),
+  ));
 }
 
 class MyApp extends StatelessWidget {
@@ -31,11 +31,9 @@ class MyApp extends StatelessWidget {
             buttonTheme: ButtonThemeData(
               buttonColor: Color(0xffe53935),
               shape: RoundedRectangleBorder(),
-            )
-        ),
+            )),
         home: TabNavigator(),
       ),
     );
   }
 }
-

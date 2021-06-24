@@ -46,19 +46,19 @@ class _BookshelfPageState extends State<BookshelfPage> with
 
   deleteBook () async {
     SharedPreferences preferences = await SharedPreferences.getInstance();
-    List<String> toDelete = preferences.getStringList("toDelete");
-    print(toDelete);
-    if(toDelete == null){
+    List<String> toDeleteList = preferences.getStringList("toDeleteList");
+    print(toDeleteList);
+    if(toDeleteList == null){
       setState(() {
         _isEditing = false;
       });
     }
     else {
-      BookCollectDao.deleteBook(toDelete).then((value) {
+      BookCollectDao.deleteBook(toDeleteList).then((value) {
         setState(() {
-        toDelete.clear();
-        print(toDelete);
-        preferences.setStringList("toDelete", []);
+        toDeleteList.clear();
+        print(toDeleteList);
+        preferences.setStringList("toDeleteList", []);
         changeNotifier.sink.add(null);
           _isEditing = false;
         });
